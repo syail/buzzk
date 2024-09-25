@@ -1,11 +1,11 @@
 export interface ChzzkConfig {
   chzzkAPIHost: string;
-  chzzkGameAPIHost: string;
-  nameAPIHost: string;
+  commonAPIHost: string;
+  naverAPIHost: string;
 }
 
 export const DefaultConfiguration: ChzzkConfig = {
-  chzzkAPIHost: "api.chzzk.com",
-  chzzkGameAPIHost: "game-api.chzzk.com",
-  nameAPIHost: "name.chzzk.com",
+  chzzkAPIHost: 'api.chzzk.naver.com',
+  commonAPIHost: 'comm-api.game.naver.com',
+  naverAPIHost: 'apis.naver.com',
 };
